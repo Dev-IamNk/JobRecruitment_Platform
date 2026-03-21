@@ -1,4 +1,5 @@
 logs/
 *.log
 .env
-config/db.php
+config/db.php git config --global user.name "NandhaKumaran"
+git config --global user.email "nandhakumarannkit@gmail.com"

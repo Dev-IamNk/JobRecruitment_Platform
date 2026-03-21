@@ -1,0 +1,22 @@
+JOHN DOE
+Email: john.doe@email.com
+Phone: +1-555-123-4567
+
+SKILLS:
+- Python programming
+- Django framework
+- MySQL database
+- HTML and CSS
+- JavaScript
+- Git version control
+
+EXPERIENCE:
+Full Stack Developer at Tech Company (2020-2023)
+- Developed web applications using Python and Django
+- Worked with MySQL databases
+- Created REST APIs
+- Front-end development with HTML, CSS, JavaScript
+
+EDUCATION:
+Bachelor of Computer Science
+University of Technology (2016-2020)

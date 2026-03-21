@@ -10,5 +10,4 @@ function calculateScore($required_skills, $extracted_skills) {
 
     return round($score, 2);
 }
-
 ?>
