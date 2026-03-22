@@ -204,6 +204,9 @@ $jobs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <a href="edit_job.php?id=<?php echo $job['id']; ?>" class="btn btn-small btn-secondary">
                             ✏️ Edit Job
                         </a>
+                        <a href="interview_results.php?job_id=<?= $job['id'] ?>">
+    Interview Results
+</a>
                     </div>
                 </div>
             <?php endforeach; ?>

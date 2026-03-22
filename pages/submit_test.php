@@ -78,7 +78,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && getUserType() == 'recruiter') {
     }
     
     // Redirect with success message
-    header('Location: ../pages/recruiter_dashboard.php?success=shortlisted&count='.$shortlisted_count.'&job_id='.$job_id);
+  //  header('Location: ../pages/recruiter_dashboard.php?success=shortlisted&count='.$shortlisted_count.'&job_id='.$job_id);
+    // Instead of redirecting to dashboard or results, go to coding test
+header("Location: ../pages/coding_test.php?application_id=" . $application_id);
+exit;
     
 } else {
     header('Location: ../pages/recruiter_dashboard.php');
